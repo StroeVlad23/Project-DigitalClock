@@ -5,31 +5,36 @@
 
 body {
     background-color: rgb(77, 77, 77);
+    
+}
+
+header{
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
-    border-color: black;
-    border-style: solid;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+#title{
+    margin: 2rem;
+    font-size: 3rem;
+    color: rgb(202,202,202);
+
 }
 
 .circle {
 
-    border-color: black;
-    border-style: solid;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    
 }
 
 .circle div {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    border-width: 3px;
-   
     display: flex;
     justify-content: center;
     align-items: center;
