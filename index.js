@@ -14,17 +14,17 @@ function UpdateTime() {
     let componentHours= document.getElementById('circle__red__p');
     componentHours.innerHTML=hours;
     let elementRed=document.getElementById('circle__red');
-    elementRed.style.background = `radial-gradient(closest-side, rgb(77, 77, 77) 85%, transparent 86% 100%), conic-gradient(rgb(255, 62, 62) ${numericHours/24*100}%, rgb(252, 165, 165) 0%)`;
+    elementRed.style.background = `radial-gradient(closest-side, rgb(77, 77, 77) 89%, transparent 89% 100%), conic-gradient(rgb(255, 62, 62) ${numericHours/24*100}%, rgba(252, 165, 165, 0.52) 0%)`;
     
     let componentMinutes= document.getElementById('circle__yellow__p');
     componentMinutes.innerHTML=minutes;
     let elementYellow=document.getElementById('circle__yellow');
-    elementYellow.style.background = `radial-gradient(closest-side, rgb(77, 77, 77) 85%, transparent 86% 100% ), conic-gradient(rgb(253, 244, 69) ${numericMinutes/60*100}%, rgb(255, 250, 154) 0%)`;
+    elementYellow.style.background = `radial-gradient(closest-side, rgb(77, 77, 77) 89%, transparent 89% 100% ), conic-gradient(rgb(253, 244, 69) ${numericMinutes/60*100}%, rgba(255, 250, 154,0.52) 0%)`;
    
     let componentSeconds= document.getElementById('circle__blue__p');
     componentSeconds.innerHTML=seconds;
     let elementBlue=document.getElementById('circle__blue');
-    elementBlue.style.background = `radial-gradient(closest-side, rgb(77, 77, 77) 85%, transparent 86% 100% ), conic-gradient(rgb(44, 125, 255) ${numericSeconds/60*100}%, rgb(144, 185, 249) 0%)`;
+    elementBlue.style.background = `radial-gradient(closest-side, rgb(77, 77, 77) 89%, transparent 89% 100% ), conic-gradient(rgb(44, 125, 255) ${numericSeconds/60*100}%, rgba(144, 185, 249,0.52) 0%)`;
 
 }
 
