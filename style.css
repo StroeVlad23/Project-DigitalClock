@@ -15,8 +15,8 @@ header{
     margin-bottom: 4rem;
 }
 
-#title{
-    margin: 2rem;
+.title{
+    margin: 3rem;
     font-size: 3rem;
     color: rgb(202,202,202);
 
@@ -28,6 +28,7 @@ header{
     justify-content: space-around;
     align-items: center;
     width: 100vw;
+    margin-bottom: 8rem;
     
 }
 
@@ -44,5 +45,11 @@ header{
 
 .circle div p{
     color: rgb(202,202,202);
+}
+
+.christmas-countdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
