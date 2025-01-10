@@ -16,7 +16,7 @@ header{
 }
 
 .title{
-    margin: 3rem;
+    margin-top: 3rem;
     font-size: 3rem;
     color: rgb(202,202,202);
 
@@ -29,7 +29,7 @@ header{
     align-items: center;
     width: 100vw;
     margin-bottom: 8rem;
-    
+    margin-top: 8rem;
 }
 
 .circle div {
@@ -37,6 +37,7 @@ header{
     height: 300px;
     border-radius: 50%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 40px;
@@ -47,9 +48,13 @@ header{
     color: rgb(202,202,202);
 }
 
-.christmas-countdown{
+.date__countdown{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
+.date__countdown__input{
+    margin-top: 2rem;
+}
