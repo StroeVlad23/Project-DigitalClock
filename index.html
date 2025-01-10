@@ -14,15 +14,22 @@
     </header>
     <main>
         <div class="circle">
-            <div id="circle__hours"><p id="circle__hours__p"></p></div>
-            <div id="circle__minutes"><p id="circle__minutes__p"></p></div>
-            <div id="circle__seconds"><p id="circle__seconds__p"></p></div>
+            <div id="circle__hours"><p id="circle__hours__p"></p><p>hours</p></div>
+            <div id="circle__minutes"><p id="circle__minutes__p"></p><p>minutes</p></div>
+            <div id="circle__seconds"><p id="circle__seconds__p"></p><p>seconds</p></div>
         </div>
-        <p class="title christmas-countdown">Chrismas Countdown</p>
+        <div class="date__countdown">
+            <p class="title">How much until...</p>
+            <div class="date__countdown__input">
+            <input id="desired__day" type="number" min="1" max="31">
+            <input id="desired__month" type="number" min="1" max="31">
+            <button onclick="ChooseDesiredDateButton()">Apasa ca sa mearga</button>
+            </div>
+        </div>
         <div class="circle">
-            <div id="circle__days__christmas"><p id="circle__days__christmas__p"></p></div>
-            <div id="circle__hours__christmas"><p id="circle__hours__christmas__p"></p></div>
-            <div id="circle__minutes__christmas"><p id="circle__minutes__christmas__p"></p></div>
+            <div id="circle__days__date"><p id="circle__days__date__p"></p><p id="circle__days__text"></p></div>
+            <div id="circle__hours__date"><p id="circle__hours__date__p"></p><p id="circle__hours__text"></p></div>
+            <div id="circle__minutes__date"><p id="circle__minutes__date__p"></p><p id="circle__minutes__text"></p></div>
         </div>
     </main>
 
